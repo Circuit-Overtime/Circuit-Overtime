@@ -113,12 +113,6 @@
 
 ###
 
-<br clear="both">
-
-<img align="right" height="128" src="https://clintbird.com/images/posts/2017/gifs-2.gif"  />
-
-###
-
 <div align="left">
   <img src="https://img.shields.io/static/v1?message=Youtube&logo=youtube&label=&color=FF0000&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="youtube logo"  />
   <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="instagram logo"  />
@@ -133,6 +127,12 @@
   <img src="https://img.shields.io/static/v1?message=Dribbble&logo=dribbble&label=&color=EA4C89&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="dribbble logo"  />
   <img src="https://img.shields.io/static/v1?message=Codepen&logo=codepen&label=&color=000000&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="codepen logo"  />
 </div>
+
+###
+
+<br clear="both">
+
+<img align="right" height="128" src="https://clintbird.com/images/posts/2017/gifs-2.gif"  />
 
 ###
 
@@ -170,11 +170,15 @@
 
 ###
 
-<img align="left" height="150" src="https://firebasestorage.googleapis.com/v0/b/videolize-3563f.appspot.com/o/bigstar.png?alt=media&token=53c5945b-2b37-4c3e-972c-7bd1b0b9e4f1"  />
+<img align="right" height="160" src="https://neural.love/cdn/ai-photostock/1eebee11-58bd-6ce2-8e8f-c5e463ba45e3/0.jpg?Expires=1711929599&Signature=nZ3qiAyO91Scbg-yMq4CfHt2FlHVS2IiTiwz6oBLPG2ckzVHS4bKv8cUsg9gqVyZ4u7FwXfJGB5hMQeTAtOS-HhP73NpHfxf3oK53t50azj0EfUGxxhCTUp3wn2jlzBTsRqIVi41uxrrGIEh2bdN7SiixcgGntpb87GlB~NNoOEQoZ98K-ENIoZnv4dmnolUQcB9UShBRLLjegcQuBfKuSe65XpP5xtltEQMhFGyf4x83BZaVptbC3Z5IpMJXlBBEJY0r80XSOyAyJUtWsWRHxhV6Ng6Qgzcl3uUXs6K0tFJBhtoHT4kItv486f0Chdbtyq4L4fP-kxfztFY6Yikaw__&Key-Pair-Id=K2RFTOXRBNSROX"  />
 
 ###
 
-<img align="right" height="160" src="https://firebasestorage.googleapis.com/v0/b/videolize-3563f.appspot.com/o/innoVistaEye.png?alt=media&token=7437b492-c8e3-4ade-81f6-39c9135a733a"  />
+<img align="right" height="160" src="https://neural.love/cdn/ai-photostock/1ee5003e-2afa-64d0-9518-afb2f991e16c/0.jpg?Expires=1711929599&Signature=0BdFZLq9hf6QYtxat5zJMZ5Klm-WkNqdQFAhYdLlN4yVX9Juvm7GSNSiqymXjiM8TFhb1XlYVdWPEJyt9GnriwMCdsTbB-~JH5vbBf6Ab9I8wnba~zKivE~q5sZZTmGBB~~NmHCnuYVUqyPc-hUc3gATPx9TgF54LkgKCj4HZ5E~E6D3oPYw18D6eOPOFLbaOjdkBn1uMaZQ~aHgvK9T5yrjoycSVcw47Eox1zP94JpyAQLfgs6Uhsp9Z36i~6sIRK7lVd0EUbTMYlF1xWGD1DreQa9hhMd~n~06h3iSgpBzZ6tRAow9jxov7oKWed8b2ESDJUPNFkG3WngEOgKNwA__&Key-Pair-Id=K2RFTOXRBNSROX"  />
+
+###
+
+<img align="right" height="160" src="https://neural.love/cdn/ai-photostock/1ee59f1f-a627-6588-85b8-1d55381fbfd3/0.jpg?Expires=1711929599&Signature=mksIWsG2qlf22nl~G9tIEweSHWT2KAtjNjck2TQt9yLP9UzjXNVnT3zr0zQ1lombS70hz26rJrHonXqRe-gy944RN43HuzP-2vRSoNV528xrga4Z6t2VTsZ8pfuYLB6VgcnSB0y1GWTT1jZP-TqOBswEQGXzp1Aj7DXsqPGU18D1C-dpIJ057vvzZWgsfzFaRplqRGvYL5lzpPuWiL9mxzY5Gu2MFMaTLMOyCRWeyY-RvyQ~Mdr~hybxt8xOuvmq5Y8N1~CH1tQid8eqIKPAK5XzFLNLzer-HrXT0qEGUuhtBIrPcpkr3XAetJkXPau5rgFruEqWMyL3m9h0nMldRw__&Key-Pair-Id=K2RFTOXRBNSROX"  />
 
 ###
 
