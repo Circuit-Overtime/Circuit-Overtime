@@ -1,4 +1,4 @@
-<h2 align="left">Hi 👋! My name is Ayushman Bhattacharya and I'm a CSE Undergraduate</h2>
+<h2 align="center">Hi 👋, I'm Ayushman Bhattacharya - Architecting the Future, A Journey in Computer Science</h2>
 
 ###
 
