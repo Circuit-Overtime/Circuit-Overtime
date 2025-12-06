@@ -13,10 +13,6 @@
 </div>
 
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Circuit-Overtime&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Circuit-Overtime&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=8&theme=dracula&hide_border=false&custom_title=What%20can%20this%20guy%20do?" height="150" alt="languages graph"  />
-</div>
 
 ###
 
