@@ -15,3 +15,4 @@ More about me:
 * LinkedIn — [in/elixpo](https://www.linkedin.com/in/elixpo/)
 * Website — [elixpo.com](https://elixpo.com)
 * YouTube — [@elixpo](https://youtube.com/@elixpo)
+* Instagram — [@elixpo_](https://www.instagram.com/elixpo_/)
