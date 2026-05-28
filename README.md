@@ -9,10 +9,9 @@ More about me:
 * 🎤 Speaking at [GitHub Maintainer Month 2026](https://github.com/github/maintainermonth) (May 31) and [GitHub Open Source Friday](https://github.com/github/open-source-friday) (Jun 15) on building contributor pipelines
 * 🤝 Mentored at [GSSoC 2025](https://gssoc.girlscript.tech/) and OSCI 2025; Hacktoberfest [Super Contributor 2025](https://holopin.io/@circuitovertime)
 * 🧑‍🔬 Building at [@elixpo](https://github.com/elixpo) — an AI-tooling ecosystem (web platform, search agent, sketch canvas, blogging platform) and writing [research preprints](https://orcid.org/0009-0006-5960-6308) on ML model security and ASD prediction
-
+* 📄 My personal portfolio at [@me.elixpo](https://me.elixpo.com/ayushman) containing my latest publications & my works and a cool way to connect.
 
 📬 How to reach me:
-* Portfolio — [Ayushman Bhattacharya Portfolio](https://me.elixpo.com/ayushman)
 * Email — ayushman@myceli.ai
 * LinkedIn — [in/elixpo](https://www.linkedin.com/in/elixpo/)
 * Website — [elixpo.com](https://elixpo.com)
