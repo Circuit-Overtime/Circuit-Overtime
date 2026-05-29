@@ -12,6 +12,7 @@ More about me:
 * ✍️ I write about open-source maintenance, DevOps, and building developer communities at **[blogs.elixpo.com](https://blogs.elixpo.com)**
 * 💼 **Product Engineer at [Myceli AI](https://myceli.ai)**, shipping release engineering and deployment work on Pollinations.ai
 * 🛠 **GitHub Maintainer Advisory** member for [@pollinations](https://github.com/pollinations) (4.5k★ open-source Gen-AI platform) — I build the contributor pipeline: [Pollen-Quest](https://github.com/pollinations/pollinations) payouts, project-manager bot, app-submission workflows, and [Polli CLI](https://www.npmjs.com/package/@pollinations_ai/cli)
+* 📄 My personal developer profile at [@me.elixpo](https://me.elixpo.com/ayushman) containing my latest publications & my works and a cool way to connect.
 
 📬 How to reach me:
 * Email — ayushman@myceli.ai
