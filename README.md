@@ -15,7 +15,7 @@ More about me:
 * 📄 My personal developer profile at [@me.elixpo](https://me.elixpo.com/ayushman) containing my latest publications & my works and a cool way to connect.
 
 📬 How to reach me:
-* Email — ayushman@myceli.ai
+* Email — ayushman@pollinations.ai
 * LinkedIn — [in/elixpo](https://www.linkedin.com/in/elixpo/)
 * Website — [elixpo.com](https://elixpo.com)
 * YouTube — [@elixpo](https://youtube.com/@elixpo)
