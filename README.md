@@ -6,7 +6,6 @@ I am an open-source maintainer and platform engineer from Kolkata, India. I main
 
 - **Open-source infrastructure:** contributor rewards, triage automation, GitHub Actions, release workflows, application onboarding, and developer tooling for Pollinations.ai.
 - **Platform engineering:** Docker, Cloudflare, Azure, Redis, CI/CD, model-serving integrations, and the operational boundaries around AI applications.
-- **Research:** low-latency LLM web search, retrieval and caching systems, model security, and applied machine learning.
 - **Developer communities:** workshops, hackathons, open-source mentorship, technical writing, and conference talks.
 
 ## Current work
@@ -34,15 +33,6 @@ The paper documents the architecture behind [OreoLook](https://github.com/pollin
 - Co-hosted Kolkata's 2025 Hacktoberfest meetup for approximately **270 participants**.
 - Mentored contributors through GSSoC 2025 and OSCI.
 
-## GitHub snapshot
-
-As of 20 September 2026:
-
-- **41** public repositories
-- **128** followers
-- [Pollinations.ai](https://github.com/pollinations/pollinations): **5,101 stars**
-- [Elixpo Chapter](https://github.com/elixpo/elixpo_chapter): **86 stars**
-- [OreoLook](https://github.com/pollinations/search.elixpo): **22 stars**
 
 ## Connect
 
