@@ -33,6 +33,10 @@ The paper documents the architecture behind [OreoLook](https://github.com/pollin
 - Co-hosted Kolkata's 2025 Hacktoberfest meetup for approximately **270 participants**.
 - Mentored contributors through GSSoC 2025 and OSCI.
 
+## My favourite blog picks 
+- [Jev Typesafe AI](https://blogs.elixpo.com/elixpohere/what-the-heck-is-jev)
+- [GDGoC Experience](https://blogs.elixpo.com/elixpohere/dscjisu26-report)
+- [Maintainers Mentality](https://blogs.elixpo.com/elixpohere/maintainers-mentality)
 
 ## Connect
 
