@@ -44,4 +44,4 @@ The paper documents the architecture behind [OreoLook](https://github.com/pollin
 - [LinkedIn](https://www.linkedin.com/in/elixpo/)
 - [Writing](https://blogs.elixpo.com/elixpohere)
 - [YouTube](https://youtube.com/@elixpo)
-- Email: ayushman@pollinations.ai
+- Email: ayushman@myceli.ai
