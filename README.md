@@ -2,14 +2,14 @@
 
 # Ayushman Bhattacharya
 
-### Open-source systems builder · Founder and project lead at [Elixpo](https://github.com/elixpo) · Maintainer at [Pollinations.AI](https://github.com/pollinations)
+### Developer Relations at [Myceli AI](https://myceli.ai) · Maintainer at [Pollinations.AI](https://github.com/pollinations) · GitHub Maintainer Advisory member · Founder of [Elixpo](https://github.com/elixpo)
 
 I build public developer infrastructure, autonomous-agent systems, operated
 open-source services, reproducible research, and the contribution machinery
 that helps projects move from an interesting repository to a usable release.
 
 [![Elixpo](https://img.shields.io/badge/Elixpo-open--source_project_foundry-076b46?style=for-the-badge)](https://elixpo.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-me.elixpo.com-243b67?style=for-the-badge)](https://me.elixpo.com/ayushman)
+[![Portfolio](https://img.shields.io/badge/Portfolio-me.elixpo.com%2Fayushman-243b67?style=for-the-badge)](https://me.elixpo.com/ayushman)
 [![Research](https://img.shields.io/badge/Open_research-research.elixpo.com-3159a7?style=for-the-badge)](https://research.elixpo.com)
 [![Writing](https://img.shields.io/badge/Writing-LixBlogs-f15d42?style=for-the-badge)](https://blogs.elixpo.com/elixpohere)
 
@@ -93,9 +93,9 @@ open generative-AI ecosystem. That work includes:
 - release and GitHub Actions infrastructure; and
 - the public [Pollinations CLI](https://www.npmjs.com/package/@pollinations_ai/cli).
 
-I am part of GitHub's **Maintainer Advisory community** and work as a Product
-Engineer at [Myceli AI](https://myceli.ai), the company behind
-Pollinations.AI.
+I am part of GitHub's **Maintainer Advisory community** and work in developer
+relations at [Myceli AI](https://myceli.ai), the company behind Pollinations.AI,
+where I have also been a Product Engineer since 2025.
 
 ## Community and speaking
 
