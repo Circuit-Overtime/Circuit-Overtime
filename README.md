@@ -30,14 +30,23 @@ automation, release systems, and community programme.
 
 | Selected work | What it does | Public record |
 | --- | --- | --- |
-| **Crumb** | A self-hosted autonomous Rust agent harness and natural-language terminal powered by Pollinations. | [Source](https://github.com/elixpo/crumb.elixpo) · [Product direction](https://github.com/elixpo/crumb.elixpo/blob/main/docs/product/direction.md) |
+| **Crumb** | A self-hosted autonomous Rust agent harness and natural-language terminal powered by Pollinations. Debian packaging is in progress ([ITP #1151280](https://bugs.debian.org/1151280)). | [Source](https://github.com/elixpo/crumb.elixpo) · [Product direction](https://github.com/elixpo/crumb.elixpo/blob/main/docs/product/direction.md) · [Debian packaging](https://salsa.debian.org/elixpo/crumb) |
 | **Elixpoo** | Elixpo's bounded GitHub project-management agent for triage, exact-mention assistance, evidence-grounded reviews, Discussions, and merged-change memory. | [Source](https://github.com/elixpo/agent.elixpo) · [Documentation](https://agent.elixpo.com/docs) |
 | **OreoLook** | An open answer engine for cited web research, structured reports, and reproducible evaluation. | [Live service](https://search.elixpo.com) · [Research record](https://research.elixpo.com/oreolook) |
 | **LixBlogs** | An operated open publishing system for technical writing, rich documents, diagrams, equations, media, and CLI automation. | [Live service](https://blogs.elixpo.com) · [Source](https://github.com/elixpo/blogs.elixpo) |
 | **LixSketch** | An open SVG whiteboard engine and React canvas with a hand-drawn visual system. | [Live canvas](https://sketch.elixpo.com) · [Source](https://github.com/elixpo/sketch.elixpo) |
-| **Lixrl** | Short-link infrastructure with managed redirects, analytics, QR generation, and a companion CLI. | [Live service](https://lixrl.com) · [Source](https://github.com/elixpo/lixrl.com) |
 | **Elixpo Accounts** | Shared OAuth 2.0 and OpenID Connect identity infrastructure for supported Elixpo services. | [Live service](https://accounts.elixpo.com) · [Source](https://github.com/elixpo/accounts.elixpo) |
-| **Elixpo Chapter** | The master public record for bounded project work, reviewed contributions, releases, and contributor history across the organization. | [Source and history](https://github.com/elixpo/elixpo_chapter) · [How Chapters work](https://elixpo.com/chapter) |
+| **Elixpo Packages** | Signed APT distribution and public catalogue for Elixpo's Linux packages, selected for the XERJ Corpus Hub. | [Catalogue](https://packages.elixpo.com) · [Source](https://github.com/elixpo/packages.elixpo) |
+| **Oreo** | An open ESP32-S3 hardware badge running OreoOS, a MicroPython OS with apps, OTA updates and KiCad hardware. | [Live site](https://oreo.elixpo.com) · [Source](https://github.com/elixpo/oreo) |
+
+**Also active:** [Lixrl](https://elixpo.com/services/lixrl) ·
+[Elixpo Mails](https://elixpo.com/services/mails) ·
+[Elixpo Status](https://elixpo.com/services/status) ·
+[Elixpo Payouts](https://elixpo.com/services/payouts) ·
+[Elixpo Admin](https://elixpo.com/services/admin) ·
+[Elixpo Members](https://elixpo.com/services/members) ·
+[Elixpo Chapter](https://github.com/elixpo/elixpo_chapter), the public record of
+reviewed contributions and releases.
 
 Explore the complete, lifecycle-aware directory at
 **[elixpo.com/projects](https://elixpo.com/projects)**. It includes active,
@@ -104,8 +113,15 @@ Pollinations.AI.
   pipelines and maintainer infrastructure.
 - **[GitHub Open Source Friday 2026](https://www.youtube.com/watch?v=apxwKja5JWE)**
   — presented *Building the Contributor Pipeline at Pollinations.ai*.
+- **[Open Source Connect India 2026](https://www.youtube.com/watch?v=pPYALGPVhb8)**
+  — presented *GitHub Actions Is Your First Reviewer*.
 - **React Kolkata 2026** — presented *The Client Boundary: What `"use client"`
-  Really Does in Modern React*.
+  Really Does in Modern React* (August) and *Why Hacktoberfest Stopped Counting
+  Pull Requests in the Age of AI Agents* (October,
+  [demo](https://github.com/Circuit-Overtime/react-kolkata-pr-ownership-demo)).
+- **Hackathon judging** — Hacktoberfest '26 × GDGoC GCELT, Hacktoberfest Hack
+  Day Kolkata × ByteMonk, and GenAI Sprint 1.0, the online cloud and AI hackathon
+  by the AWS Student Builder Group at JIS University.
 - **Know Your Terminal** — delivered a hands-on Bash workshop with GDG JIS
   University and GDG UEM.
 
