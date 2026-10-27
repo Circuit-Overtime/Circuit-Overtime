@@ -30,7 +30,7 @@ automation, release systems, and community programme.
 
 | Selected work | What it does | Public record |
 | --- | --- | --- |
-| **Crumb** | A self-hosted autonomous Rust agent harness and natural-language terminal powered by Pollinations. | [Source](https://github.com/elixpo/crumb.elixpo) · [Product direction](https://github.com/elixpo/crumb.elixpo/blob/main/docs/product/direction.md) |
+| **Crumb** | A self-hosted autonomous Rust agent harness and natural-language terminal powered by Pollinations. Debian packaging is in progress ([ITP #1151280](https://bugs.debian.org/1151280)). | [Source](https://github.com/elixpo/crumb.elixpo) · [Product direction](https://github.com/elixpo/crumb.elixpo/blob/main/docs/product/direction.md) · [Debian packaging](https://salsa.debian.org/elixpo/crumb) |
 | **Elixpoo** | Elixpo's bounded GitHub project-management agent for triage, exact-mention assistance, evidence-grounded reviews, Discussions, and merged-change memory. | [Source](https://github.com/elixpo/agent.elixpo) · [Documentation](https://agent.elixpo.com/docs) |
 | **OreoLook** | An open answer engine for cited web research, structured reports, and reproducible evaluation. | [Live service](https://search.elixpo.com) · [Research record](https://research.elixpo.com/oreolook) |
 | **LixBlogs** | An operated open publishing system for technical writing, rich documents, diagrams, equations, media, and CLI automation. | [Live service](https://blogs.elixpo.com) · [Source](https://github.com/elixpo/blogs.elixpo) |
@@ -104,8 +104,14 @@ Pollinations.AI.
   pipelines and maintainer infrastructure.
 - **[GitHub Open Source Friday 2026](https://www.youtube.com/watch?v=apxwKja5JWE)**
   — presented *Building the Contributor Pipeline at Pollinations.ai*.
+- **[Open Source Connect India 2026](https://www.youtube.com/watch?v=pPYALGPVhb8)**
+  — presented *GitHub Actions Is Your First Reviewer*.
 - **React Kolkata 2026** — presented *The Client Boundary: What `"use client"`
-  Really Does in Modern React*.
+  Really Does in Modern React* (August) and *Why Hacktoberfest Stopped Counting
+  Pull Requests in the Age of AI Agents* (October,
+  [demo](https://github.com/Circuit-Overtime/react-kolkata-pr-ownership-demo)).
+- **Hackathon judging** — Hacktoberfest '26 × GDGoC GCELT, Hacktoberfest Hack
+  Day Kolkata × ByteMonk, and GenAI Sprint 1.0 at AWSBG JIS University.
 - **Know Your Terminal** — delivered a hands-on Bash workshop with GDG JIS
   University and GDG UEM.
 
