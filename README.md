@@ -66,6 +66,11 @@ metadata, and reproducible evidence.
   three-layer cache for low-latency LLM web search on commodity CPU hardware,
   accompanied by a public
   [evaluation dataset](https://huggingface.co/datasets/p-research/oreolook-research-evals).
+- **[RV565](https://arxiv.org/abs/2610.35935)** — frame-independent RGB565 video
+  playback on MicroPython-class ESP32-S3 hardware, co-authored with Anwesha
+  Chakraborty, with firmware, measurements and analysis in a
+  [Zenodo artifact](https://doi.org/10.5281/zenodo.23543367). It powers
+  [Oreo](https://oreo.elixpo.com)'s video pipeline.
 - **[QFabric](https://github.com/elixpo/qfabric)** — contract-driven task
   recovery across Linux and RTOS domains on Arduino UNO Q, with replayable
   decisions, evidence, a technical report, and a released Python package.
@@ -73,6 +78,9 @@ metadata, and reproducible evidence.
   eight-bit breadboard computer built with transistor and TTL logic, EEPROM
   microcode, schematics, and a
   [published paper](https://elixpo.com/research/octabit).
+- **[Flappy6502](https://github.com/elixpo/flappy6502)** — Flappy Bird on a
+  breadboard R6502 driving an SPI LCD in hand-tuned ca65 assembly, listed in
+  [6502.org's Homebuilt Projects](https://6502.org/homebuilt/).
 - **[WozFormer](https://github.com/elixpo/wozformer)** — an active investigation
   of language-model inference on a 1 MHz 6502 under severe SRAM and EEPROM
   constraints.
