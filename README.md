@@ -37,7 +37,7 @@ automation, release systems, and community programme.
 | **LixSketch** | An open SVG whiteboard engine and React canvas with a hand-drawn visual system. | [Live canvas](https://sketch.elixpo.com) · [Source](https://github.com/elixpo/sketch.elixpo) |
 | **Elixpo Accounts** | Shared OAuth 2.0 and OpenID Connect identity infrastructure for supported Elixpo services. | [Live service](https://accounts.elixpo.com) · [Source](https://github.com/elixpo/accounts.elixpo) |
 | **Elixpo Packages** | Signed APT distribution and public catalogue for Elixpo's Linux packages, selected for the XERJ Corpus Hub. | [Catalogue](https://packages.elixpo.com) · [Source](https://github.com/elixpo/packages.elixpo) |
-| **Oreo** | An open ESP32-S3 hardware badge running OreoOS, a MicroPython OS with apps, OTA updates and KiCad hardware. | [Live site](https://oreo.elixpo.com) · [Source](https://github.com/elixpo/oreo) |
+| **Falera** | An open ESP32-S3 hardware badge running FaleraOS, a MicroPython OS with apps, OTA updates and KiCad hardware. | [Live site](https://falera.elixpo.com) · [Source](https://github.com/elixpo/falera) |
 
 **Also active:** [Lixrl](https://elixpo.com/services/lixrl) ·
 [Elixpo Mails](https://elixpo.com/services/mails) ·
@@ -70,7 +70,7 @@ metadata, and reproducible evidence.
   playback on MicroPython-class ESP32-S3 hardware, co-authored with Anwesha
   Chakraborty, with firmware, measurements and analysis in a
   [Zenodo artifact](https://doi.org/10.5281/zenodo.23543367). It powers
-  [Oreo](https://oreo.elixpo.com)'s video pipeline.
+  [FaleraOS](https://falera.elixpo.com)'s video pipeline.
 - **[QFabric](https://github.com/elixpo/qfabric)** — contract-driven task
   recovery across Linux and RTOS domains on Arduino UNO Q, with replayable
   decisions, evidence, a technical report, and a released Python package.
