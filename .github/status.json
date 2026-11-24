@@ -1,0 +1,16 @@
+{
+  "statuses": [
+    { "emoji": ":ship:", "message": "Shipping in public, one release at a time" },
+    { "emoji": ":panda_face:", "message": "Feeding Lumi bamboo between merges" },
+    { "emoji": ":tea:", "message": "Fuelled by chai and open source" },
+    { "emoji": ":bug:", "message": "Hunting a bug that only exists in production" },
+    { "emoji": ":package:", "message": "Signing packages, please hold" },
+    { "emoji": ":test_tube:", "message": "Running just one more experiment" },
+    { "emoji": ":white_check_mark:", "message": "Merging PRs one LGTM at a time" },
+    { "emoji": ":crescent_moon:", "message": "Coding past midnight again" },
+    { "emoji": ":electric_plug:", "message": "Soldering something that should have been software" },
+    { "emoji": ":books:", "message": "Reviewing PRs with a cup of tea" },
+    { "emoji": ":rocket:", "message": "Deploy on a Friday? Only through CI" },
+    { "emoji": ":seedling:", "message": "Growing the Elixpo foundry" }
+  ]
+}
