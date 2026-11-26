@@ -30,7 +30,7 @@ automation, release systems, and community programme.
 
 | Selected work | What it does | Public record |
 | --- | --- | --- |
-| **Crumb** | A self-hosted autonomous Rust agent harness and natural-language terminal powered by Pollinations. Debian packaging is in progress ([ITP #1151280](https://bugs.debian.org/1151280)). | [Source](https://github.com/elixpo/crumb.elixpo) · [Product direction](https://github.com/elixpo/crumb.elixpo/blob/main/docs/product/direction.md) · [Debian packaging](https://salsa.debian.org/elixpo/crumb) |
+| **Crumb** | A self-hosted autonomous Rust agent harness and natural-language terminal powered by Pollinations. Now in Debian testing ([tracker](https://tracker.debian.org/pkg/crumb)). | [Source](https://github.com/elixpo/crumb.elixpo) · [Product direction](https://github.com/elixpo/crumb.elixpo/blob/main/docs/product/direction.md) · [Debian packaging](https://salsa.debian.org/elixpo/crumb) |
 | **Elixpoo** | Elixpo's bounded GitHub project-management agent for triage, exact-mention assistance, evidence-grounded reviews, Discussions, and merged-change memory. | [Source](https://github.com/elixpo/agent.elixpo) · [Documentation](https://agent.elixpo.com/docs) |
 | **OreoLook** | An open answer engine for cited web research, structured reports, and reproducible evaluation. | [Live service](https://search.elixpo.com) · [Research record](https://research.elixpo.com/oreolook) |
 | **LixBlogs** | An operated open publishing system for technical writing, rich documents, diagrams, equations, media, and CLI automation. | [Live service](https://blogs.elixpo.com) · [Source](https://github.com/elixpo/blogs.elixpo) |
@@ -38,6 +38,7 @@ automation, release systems, and community programme.
 | **Elixpo Accounts** | Shared OAuth 2.0 and OpenID Connect identity infrastructure for supported Elixpo services. | [Live service](https://accounts.elixpo.com) · [Source](https://github.com/elixpo/accounts.elixpo) |
 | **Elixpo Packages** | Signed APT distribution and public catalogue for Elixpo's Linux packages, selected for the XERJ Corpus Hub. | [Catalogue](https://packages.elixpo.com) · [Source](https://github.com/elixpo/packages.elixpo) |
 | **Falera** | An open ESP32-S3 hardware badge running FaleraOS, a MicroPython OS with apps, OTA updates and KiCad hardware. | [Live site](https://falera.elixpo.com) · [Source](https://github.com/elixpo/falera) |
+| **Plumlang** | A statically typed, memory-safe programming language with a plain-English syntax, written from scratch in C: typed bytecode VM, built-in HTTP server and one dependency-free binary. Built with Subhro, Rohan and Anwesha. | [Website](https://plum.elixpo.com) · [Source](https://github.com/plumlang/plumlang) · [Playground](https://plum.elixpo.com/playground/) |
 
 **Also active:** [Lixrl](https://elixpo.com/services/lixrl) ·
 [Elixpo Mails](https://elixpo.com/services/mails) ·
