@@ -1,0 +1,66 @@
+# Picks a random profile status (emoji + message) from .github/status.json once a day.
+# Needs a classic personal access token of THIS account with the `user` scope, saved as the
+# repository secret PROFILE_STATUS_TOKEN. Each status expires after 26 hours, so a stale one
+# clears itself if this workflow ever stops running.
+
+name: Profile status
+
+on:
+  schedule:
+    - cron: "23 3 * * *" # daily, 08:53 IST
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+concurrency:
+  group: profile-status
+  cancel-in-progress: true
+
+jobs:
+  status:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+        with:
+          persist-credentials: false
+          sparse-checkout: .github/status.json
+          sparse-checkout-cone-mode: false
+
+      - name: Set a random status
+        env:
+          TOKEN: ${{ secrets.PROFILE_STATUS_TOKEN }}
+        run: |
+          python3 - <<'PY'
+          import datetime, json, os, random, sys, urllib.request
+
+          token = os.environ.get("TOKEN")
+          if not token:
+              sys.exit("::error::Add a classic token with the `user` scope as the PROFILE_STATUS_TOKEN secret.")
+
+          def graphql(query, variables=None):
+              request = urllib.request.Request(
+                  "https://api.github.com/graphql",
+                  data=json.dumps({"query": query, "variables": variables or {}}).encode(),
+                  headers={"Authorization": f"bearer {token}", "Content-Type": "application/json"},
+              )
+              with urllib.request.urlopen(request, timeout=20) as response:
+                  body = json.load(response)
+              if body.get("errors"):
+                  sys.exit(f"::error::{body['errors'][0].get('message')}")
+              return body["data"]
+
+          statuses = json.load(open(".github/status.json"))["statuses"]
+          current = (graphql("{ viewer { status { message } } }")["viewer"]["status"] or {}).get("message")
+          choice = random.choice([s for s in statuses if s["message"] != current] or statuses)
+          expires = (datetime.datetime.now(datetime.timezone.utc) + datetime.timedelta(hours=26)).isoformat()
+
+          graphql(
+              "mutation($input: ChangeUserStatusInput!) { changeUserStatus(input: $input) { status { emoji message } } }",
+              {"input": {"emoji": choice["emoji"], "message": choice["message"], "expiresAt": expires}},
+          )
+          print(f"Status set: {choice['emoji']} {choice['message']}")
+          with open(os.environ["GITHUB_STEP_SUMMARY"], "a") as summary:
+              summary.write(f"Status set to {choice['emoji']} **{choice['message']}** until {expires[:16]} UTC.\n")
+          PY
