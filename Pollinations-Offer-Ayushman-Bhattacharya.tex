@@ -1,0 +1,285 @@
+% Compile with either:
+%   pdflatex Pollinations-Offer-Ayushman-Bhattacharya.tex
+%   lualatex Pollinations-Offer-Ayushman-Bhattacharya.tex
+\documentclass[10pt,a4paper]{article}
+
+\usepackage[a4paper,left=25mm,right=25mm,top=20mm,bottom=17mm]{geometry}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  % Source Sans Pro is the closest bundled Type 1 fallback to Inter and works
+  % with pdfLaTeX without requiring fontspec.
+  \usepackage[default,semibold]{sourcesanspro}
+  \usepackage{ebgaramond}
+  \newcommand{\displayfont}{\ebgaramond}
+  % LetterSpace is applied by fontspec under XeLaTeX/LuaLaTeX. Keep the
+  % source compatible with pdfLaTeX, whose Type 1 font path lacks that key.
+  \providecommand{\addfontfeatures}[1]{}
+\else
+  \usepackage{fontspec}
+  \setmainfont{Inter}[
+    UprightFont=*-Regular,
+    BoldFont=*-SemiBold,
+    ItalicFont=*-Italic,
+    Ligatures=TeX
+  ]
+  \newfontfamily\displayfont{EB Garamond}[
+    UprightFont=*-Regular,
+    BoldFont=*-Bold,
+    ItalicFont=*-Italic,
+    Ligatures=TeX
+  ]
+\fi
+\usepackage[table]{xcolor}
+\usepackage{tikz}
+\usepackage[most]{tcolorbox}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\usepackage{microtype}
+\usepackage{hyperref}
+\usepackage{pagecolor}
+
+\definecolor{ink}{HTML}{160817}
+\definecolor{body}{HTML}{28212B}
+\definecolor{muted}{HTML}{6A6270}
+\definecolor{gold}{HTML}{A97800}
+\definecolor{goldlight}{HTML}{E2C064}
+\definecolor{rule}{HTML}{DDCEAA}
+\definecolor{paper}{HTML}{FFFCF6}
+\definecolor{panel}{HTML}{FFF9EC}
+\pagecolor{paper}
+\color{body}
+
+\hypersetup{
+  colorlinks=true,
+  urlcolor=gold,
+  pdftitle={Letter of Offer - Developer Relations Intern},
+  pdfauthor={Myceli.ai OÜ}
+}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlist[itemize]{leftmargin=5.5mm,labelsep=3mm,itemsep=3.5pt,topsep=5pt,parsep=0pt}
+
+\newcommand{\lotus}[1][ink]{%
+  \begin{tikzpicture}[baseline=-0.55ex,scale=.18,line width=.65pt,color=#1]
+    \draw (0,0) .. controls (-.15,.65) and (-.15,1.2) .. (0,1.55)
+                 .. controls (.15,1.2) and (.15,.65) .. (0,0);
+    \draw (0,0) .. controls (-.55,.45) and (-.75,.95) .. (-.62,1.25)
+                 .. controls (-.18,1.05) and (.02,.55) .. (0,0);
+    \draw (0,0) .. controls (.55,.45) and (.75,.95) .. (.62,1.25)
+                 .. controls (.18,1.05) and (-.02,.55) .. (0,0);
+    \draw (0,0) .. controls (-.75,.15) and (-1.05,.55) .. (-1.02,.9)
+                 .. controls (-.48,.9) and (-.12,.48) .. (0,0);
+    \draw (0,0) .. controls (.75,.15) and (1.05,.55) .. (1.02,.9)
+                 .. controls (.48,.9) and (.12,.48) .. (0,0);
+    \draw (-.82,.05) .. controls (-.48,-.18) and (.48,-.18) .. (.82,.05);
+  \end{tikzpicture}%
+}
+
+\newcommand{\brandheader}{%
+  \begin{minipage}[t]{.58\textwidth}
+    {\lotus\hspace{2pt}\bfseries\fontsize{15}{17}\selectfont pollinations.ai}\par
+    \vspace{4pt}
+    {\fontsize{7.2}{8}\selectfont\color{muted}\addfontfeatures{LetterSpace=18}%
+      OPEN-SOURCE GENERATIVE-AI PLATFORM}
+  \end{minipage}%
+  \hfill
+  \begin{minipage}[t]{.34\textwidth}
+    \raggedleft\fontsize{7.5}{10.5}\selectfont
+    \textbf{Myceli.ai OÜ}\par
+    Operator of Pollinations.ai\par
+    \href{https://pollinations.ai}{pollinations.ai}\par
+    \vspace{3pt}Tallinn, Estonia\par
+    20 June 2026
+  \end{minipage}
+  \vspace{9pt}
+
+  {\color{ink}\rule{\textwidth}{1.1pt}}\par
+  \vspace{-1.1pt}{\color{goldlight}\rule{25mm}{2.4pt}}\par
+}
+
+\newcommand{\sectiontitle}[1]{%
+  \vspace{8pt}
+  \noindent\begin{tikzpicture}[baseline=(title.base)]
+    \node[inner sep=0pt,anchor=base west,text=ink,font=\displayfont\bfseries\fontsize{15}{17}\selectfont] (title) {#1};
+    \draw[rule,line width=.45pt] ([xshift=5mm]title.east) -- (\textwidth,0);
+  \end{tikzpicture}\par
+  \vspace{4pt}
+}
+
+\newcommand{\goldbullet}{\tikz[baseline=-.55ex]\draw[fill=goldlight,draw=gold,line width=.45pt] (0,0) circle (1.55pt);}
+
+\newcommand{\term}[3]{%
+  \noindent\begin{minipage}[t]{8mm}
+    {\color{gold}\displayfont\bfseries #1}
+  \end{minipage}%
+  \begin{minipage}[t]{\dimexpr\textwidth-8mm\relax}
+    \textbf{#2}\par
+    \vspace{3pt}
+    #3
+  \end{minipage}\par
+  \vspace{8pt}
+}
+
+\newcommand{\dashitem}[1]{%
+  \noindent\begin{minipage}[t]{5mm}{\color{gold}--}\end{minipage}%
+  \begin{minipage}[t]{\dimexpr\linewidth-5mm\relax}#1\end{minipage}\par\vspace{3pt}
+}
+
+\newcommand{\offertableheading}{%
+  \begin{minipage}[c][11mm][c]{\linewidth}
+    {\color{gold}\bfseries\fontsize{8.1}{9.5}\selectfont\textls[105]{TERMS AT A GLANCE}}
+  \end{minipage}\par
+}
+
+\newcommand{\offertablerule}{%
+  {\color{rule}\hrule height .45pt}%
+}
+
+\newcommand{\offerrow}[2]{%
+  \noindent
+  \begin{minipage}[c][11mm][c]{.36\linewidth}
+    {\color{muted}\bfseries\fontsize{7.8}{9.2}\selectfont\textls[65]{#1}}
+  \end{minipage}%
+  \begin{minipage}[c][11mm][c]{.64\linewidth}
+    {\color{body}\fontsize{9.4}{11.2}\selectfont #2}
+  \end{minipage}\par
+}
+
+\newcommand{\signaturebox}[6]{%
+  \begin{tcolorbox}[
+    width=\linewidth,height=57mm,
+    colback=panel,colframe=rule,arc=4mm,boxrule=.45pt,
+    left=5mm,right=5mm,top=4mm,bottom=3mm
+  ]
+    {\color{gold}\bfseries\fontsize{7}{8}\selectfont\addfontfeatures{LetterSpace=18}#1}\par
+    \vspace{10pt}
+    {\displayfont\itshape\fontsize{18}{19}\selectfont #2}\par
+    \vspace{2pt}{\color{ink}\rule{\linewidth}{.5pt}}\par
+    \vspace{4pt}\textbf{#3}\par
+    {\color{muted}\fontsize{8}{10}\selectfont #4}\par
+    \vspace{6pt}{\color{gold}\fontsize{7.5}{9}\selectfont #5}\par
+    \vfill
+    {\color{muted}\fontsize{7.5}{9}\selectfont Date\quad%
+      \tikz[baseline=(date.base)]{%
+        \node[inner sep=0pt,minimum width=31mm,text=body] (date) {#6};
+        \draw[rule,line width=.45pt] ([yshift=-1.5pt]date.south west) -- ([yshift=-1.5pt]date.south east);
+      }}
+  \end{tcolorbox}%
+}
+
+\begin{document}
+\fontsize{9.2}{12.6}\selectfont
+
+\brandheader
+\vspace{14pt}
+
+{\color{gold}\bfseries\fontsize{7.5}{9}\selectfont\addfontfeatures{LetterSpace=20}%
+  LETTER OF OFFER · INTERNSHIP}\par
+\vspace{7pt}
+{\color{ink}\displayfont\bfseries\fontsize{31}{33}\selectfont Welcome to the team}\par
+\vspace{5pt}
+{\color{muted}\displayfont\itshape\fontsize{17}{19}\selectfont Developer Relations Intern}\par
+
+\vspace{20pt}
+{\color{ink}\displayfont\bfseries\fontsize{14}{16}\selectfont Dear Ayushman,}\par
+\vspace{9pt}
+On behalf of \textbf{Myceli.ai OÜ}, the company operating the Pollinations.ai platform, we're delighted to offer
+you the role of \textbf{Developer Relations Intern}.\par
+\vspace{7pt}
+Your contributions to our open-source platform and to the wider community have already made a real
+difference, and we're excited to formalize your place on the team. We look forward to building alongside you and
+to growing the Pollinations.ai ecosystem --- its developers, its contributors, and the people who use it every day.\par
+\vspace{7pt}
+The terms of this internship are set out below.\par
+
+\vspace{11pt}
+\begin{tcolorbox}[
+  colback=panel,colframe=rule,arc=4mm,boxrule=.45pt,
+  left=5mm,right=5mm,top=0pt,bottom=0pt
+]
+  \offertableheading
+  \offertablerule
+  \offerrow{POSITION}{Developer Relations Intern}
+  \offertablerule
+  \offerrow{START DATE}{25 June 2026}
+  \offertablerule
+  \offerrow{DURATION}{6 months, extendable by mutual agreement}
+  \offertablerule
+  \offerrow{COMMITMENT}{30 hours per week}
+  \offertablerule
+  \offerrow{LOCATION}{Remote}
+\end{tcolorbox}
+
+\sectiontitle{Scope \& responsibilities}
+The role may include, but is not limited to:
+\begin{itemize}[label=\goldbullet]
+  \item Product engineering across the Pollinations.ai platform --- developer tooling, SDKs, automation, integrations,
+        and release engineering.
+  \item Building and maintaining contributor-facing automation and platform services.
+  \item Assisting with pull-request reviews, issue triage, testing, deployment support, and documentation.
+  \item Community management --- Discord moderation, issue moderation, app-submission review, and contributor onboarding.
+  \item Supporting and growing the Pollinations.ai contributor and developer community.
+\end{itemize}
+
+\newpage
+\fontsize{9.2}{12.6}\selectfont
+
+\begin{itemize}[label=\goldbullet,topsep=0pt]
+  \item Collaborating with the team on planning, reviews, roadmap execution, and platform improvements.
+  \item Representing Pollinations.ai publicly in good faith, in line with project guidelines and team direction.
+\end{itemize}
+
+\sectiontitle{Terms}
+
+\term{01}{Open source \& intellectual property}{%
+  \dashitem{Contributions submitted to public Pollinations.ai repositories remain licensed under the applicable open-source licenses of those repositories.}
+  \dashitem{The Pollinations.ai brand, trademarks, domains, internal systems, confidential information, non-public code, unreleased materials, and other proprietary assets remain the property of Myceli.ai OÜ.}
+  \dashitem{Nothing in this agreement limits the rights granted to the public under the applicable open-source licenses of Pollinations.ai repositories.}
+}
+
+\term{02}{Confidentiality}{%
+  \dashitem{You agree to keep confidential any non-public information obtained through your participation in Pollinations.ai, both during and after the internship.}
+}
+
+\term{03}{Code of conduct}{%
+  \dashitem{You agree to abide by the Pollinations.ai Code of Conduct, community guidelines, and moderation policies while participating in the project.}
+}
+
+\term{04}{Compensation}{%
+  \dashitem{The compensation amount and payment schedule shall be confirmed during a meeting between both parties.}
+}
+
+\term{05}{Term \& termination}{%
+  \dashitem{This internship may be terminated by either party at any time with written notice.}
+  \dashitem{The parties agree to provide reasonable notice whenever practical.}
+}
+
+\vspace{1pt}
+{\color{ink}\displayfont\bfseries\fontsize{13}{15}\selectfont
+We're thrilled to have you with us --- and we can't wait to see what you build.}\par
+\vspace{7pt}
+{\color{muted}To accept this offer, please countersign below.}\par
+
+\vspace{15pt}
+\begin{minipage}[t]{.48\textwidth}
+  \signaturebox{FROM MYCELI.AI OÜ}{Elliot Fouchy}{Elliot Fouchy}{Chief Product Officer}{elliot@myceli.ai}{20 June 2026}
+\end{minipage}\hfill
+\begin{minipage}[t]{.48\textwidth}
+  \signaturebox{ACCEPTED BY}{\upshape\fontsize{17}{18}\selectfont Ayushman Bhattacharya}{Ayushman Bhattacharya}{Developer Relations Intern}{ayushman@myceli.ai}{20 June 2026}
+\end{minipage}
+
+\vfill
+{\color{rule}\rule{\textwidth}{.45pt}}\par
+\vspace{6pt}
+\begin{minipage}{.72\textwidth}
+  {\color{gold}\lotus[gold]}\hspace{4pt}{\fontsize{7.2}{8}\selectfont Myceli.ai OÜ · Operator of Pollinations.ai}
+\end{minipage}%
+\begin{minipage}{.27\textwidth}
+  \raggedleft\href{https://pollinations.ai}{\bfseries\fontsize{7.2}{8}\selectfont pollinations.ai}
+\end{minipage}
+
+\end{document}
